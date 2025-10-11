@@ -1,5 +1,6 @@
 // apna college , video number 55, Inheritance there are five types of INHERITANCE.
 // Hierarchical Inheritance
+// testing-Ashfaq1
 #include <iostream>
 using namespace std;
 class A
