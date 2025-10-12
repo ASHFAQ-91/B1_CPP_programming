@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int i,j,a[5];
+    int popular = a[0];
+    int temp=0, tempCount, count=1;
+    cout << "Enter the elements: " << endl;
+    for(i=0;i<5;i++)
+        cin >> a[i];
+    for (i=0;i<5;i++)
+    {
+        tempCount = 0;
+        temp=a[i];
+        tempCount++;
+        for(j=i+1;j<5;j++)
+        {
+            if(a[j] == temp)
+            {
+                tempCount++;
+                if(tempCount > count)
+                {
+                    popular = temp;
+                    count = tempCount;
+                }
+            }
+        }
+    }
+    cout << "Most occured element is: " <<  popular;
+}
