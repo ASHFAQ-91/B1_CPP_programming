@@ -9,7 +9,7 @@ int main()
         cout << temp << " = " << i << "\n" ;
     }
     char temp5; // char to char is char
-    temp5 = '♠♣' ;
+    temp5 = '**';
     cout << temp5;
 }
 // int main()
