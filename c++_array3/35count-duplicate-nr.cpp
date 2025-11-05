@@ -1,5 +1,4 @@
-// find duplicate numbers and print -1 on his place . count duplicate number that how many times they are -
-// repeated and print with his number.                  //AWESOME
+// find duplicate numbers and print -1 on his place . count duplicate number that how many times they are repeated and print with his number.  //AWESOME
 #include<iostream>
 using namespace std;
 int main()
